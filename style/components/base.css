@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('/fonts/Poppins-Medium.ttf');
+}
+
+.main{
+    font-family: 'Poppins';
+}
+
+a{
+    font-family: 'Poppins';
+    text-decoration: none;
+}
+
+
+
+.last_line{
+    border-top: 1px solid #ececee;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+/* 
+320px — 480px: мобильные устройства;
+481px — 768px: планшеты;
+769px — 1024px: маленькие экраны, ноутбуки;
+1025px — 1200px: большие экраны;
+1201px и больше —  очень большие экраны, телевизоры. */
+
+

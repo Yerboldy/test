@@ -1,0 +1,283 @@
+
+
+.about{
+    background-color: #f8f8f8;
+    margin: 90px 0;
+    padding: 120px 14%;
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.about_container {
+    display: flex;
+    width: 100vw;
+    height : auto;
+}
+
+.about_center{
+    display: flex;
+}
+
+.box2 img{
+    width: 44px;
+    height: 44px;
+    color: #03d41c;
+}
+.box3 img{
+    width: 44px;
+    height: 44px;
+    color: #03d41c;
+}
+.box1 {
+    width: 100%;
+}
+.box1 h1{
+    font-size: 1.3vw;
+    font-weight: bold;
+    color: #333;
+    border-bottom: 1px solid #03d41c;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    width: 200px
+}
+.box1 p{
+    font-size: 1vw;
+    color: #333333;
+    margin-bottom: 30px;
+    line-height: 30px;
+    font-family: 'Poppins-light';
+}
+
+.about_left{
+    width: 100%;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.box2 h1{
+    font-size: 0.8vw;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.box2 p{
+    font-size: 0.6vw;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.box2 ul{
+    list-style-type: disc;
+    padding-left: 15px;
+    line-height: 30px;
+    font-size: 13px;
+    color: #03d41c;
+    margin-bottom: 60px;
+    font-family: 'Poppins-light';
+}
+.box2 img{
+    margin-bottom: 30px;
+}
+
+
+.box3{
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.box3 h1{
+    font-size: 0.8vw;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.box3 p{
+    font-size: 0.6vw;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+.box3 ul{
+    list-style-type: disc;
+    padding-left: 15px;
+    line-height: 30px;
+    font-size: 13px;
+    color: #03d41c;
+    margin-bottom: 35px;
+    font-family: 'Poppins-light';
+}
+.box3 img{
+    margin-bottom: 30px;
+}
+
+
+
+
+
+.about_right{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15%;
+    width: 100%;
+}
+
+.about_right img{
+    border-radius: 2%;
+    height: 683px;
+    width: 416px;
+    /* max-width: 100%;
+    height:auto */
+}
+
+
+.about a{
+    margin-top: 40px;
+    height: 50px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e0e0e2;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 3px;
+    transition: .4s;
+}
+
+
+
+.about a:hover{
+    color: white;
+    background-color: #03d41c;
+}
+
+
+@media(max-width:1200px){
+    
+    .about{
+        flex-wrap: wrap;
+    }
+    .about_right{
+        justify-content: center;
+        /* width: 100%; */
+        padding-right: 100px;
+        padding-top: 40px;
+    }
+    .about_left{
+        margin-left: 5%;
+    }
+    .about_left h1{
+        font-size: 20px;
+        flex-wrap: wrap;
+    }
+    .about_left p{
+        font-size: 15px;
+    }
+}
+
+@media(max-width:530px){
+    .about{
+        width: 100%;
+        padding-left: 0;
+    }
+    .about_center{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box1 h1{
+        font-size: 20px;
+        width: 100px;
+    }
+
+    .box2{
+        margin: 0;
+        padding: 0;
+    }
+
+    .box2 ul{
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .box2 a{
+        margin-bottom: 30px;
+    }
+    .box3{
+        margin: 0;
+        padding: 0;
+    }
+    .box3 img{
+        width: 33px;
+        height: 33px;
+    }
+    .box3 ul{
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .box4 img{
+        height: 448px;
+        object-fit: cover;
+    }
+}
+
+@media(max-width:330px){
+    .about{
+        width: 100%;
+        padding-left: 0;
+    }
+    .about_center{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box1 h1{
+        font-size: 20px;
+        width: 100px;
+    }
+
+    .box2{
+        margin: 0;
+        padding: 0;
+    }
+    .box2 img{
+        width: 33px;
+        height: 33px;
+    }
+    .box2 ul{
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .box2 a{
+        margin-bottom: 30px;
+    }
+    .box3{
+        margin: 0;
+        padding: 0;
+    }
+    .box3 img{
+        width: 33px;
+        height: 33px;
+    }
+    .box3 ul{
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .box4 img{
+        height: 448px;
+        object-fit: cover;
+    }
+}
+

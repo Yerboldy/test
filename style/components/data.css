@@ -1,0 +1,158 @@
+.data{
+    padding: 0 10vw;
+    font-family: 'Poppins';
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.text{
+    font-size: 30px;
+}
+
+.text_line{
+    border-top: 1px solid #3dde50;
+    margin-top: 20px;
+    width: 50px;
+    margin-bottom: 30px;
+}
+
+.data_input{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.data_input input{
+    width: 550px;
+    height: 40px;
+    margin-bottom: 30px;
+    background-color: #f8f8f8;
+    border: none;
+    padding-left: 70px;
+    font-size: 13px;
+}
+
+.last_input input{
+    height: 250px;
+    padding-bottom: 230px;
+    padding-top: 25px;
+}
+
+
+.data_input i{
+    color: #d3cfcf;
+    font-size: 17px;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+
+.button{
+    margin-top: 15px;
+    height: 50px;
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3dde50;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 3px;
+    transition: .4s;
+    cursor: pointer;
+    margin-bottom: 150px;
+}
+
+.button a{
+    color: white;
+}
+
+.button:hover{
+    background-color: black;
+}
+
+
+.data_input:hover input{
+    text-decoration: none;
+    color: #888888;
+    outline: none;
+}
+
+#map{
+    position: absolute;
+    left: 50vw;
+}
+
+@media(max-width:1550px){
+    #map{
+        left: 45vw;
+    }
+    .data{
+        padding: 0 5vw;
+    }
+}
+
+@media(max-width:1400px){
+    iframe{
+        width: 600px;
+    }
+    #map{
+        left: 50vw;
+    }
+}
+
+@media(max-width:1240px){
+    iframe{
+        width: 450px;
+    }
+    #map{
+        left: 58vw;
+    }
+}
+
+@media(max-width:1090px){
+    iframe{
+        width: 40vw;
+    }
+}
+
+@media(max-width:1045px){
+    .data_input input{
+        width: 450px;
+    }
+}
+
+@media(max-width:865px){
+    #map{
+        top: 65%;
+        left: 5vw;
+    }
+    iframe{
+        width: 510px;
+        height: 300px;
+    }
+    .data{
+        height: 950px;
+    }
+    .data_input input{
+        width: 90vw;
+        height: 40px;
+    }
+    
+    .last_input input{
+        height: 250px;
+        padding-bottom: 230px;
+        padding-top: 25px;
+    }
+    
+}
+
+@media(max-width:560px){
+    iframe{
+        width: 90vw;
+        height: 250px;
+    }
+}
+

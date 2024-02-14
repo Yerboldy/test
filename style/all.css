@@ -1,0 +1,16 @@
+@import url('/style/vendor/reset.css');
+@import url('/style/components/base.css');
+@import url('/style/components/header.css');
+@import url('/style/components/header_menu.css');
+@import url('/style/components/main.css');
+@import url('/style/components/body.css');
+@import url('/style/components/about.css');
+@import url('/style/components/portfolio.css');
+@import url('/style/components/team.css');
+@import url('/style/components/body_img.css');
+@import url('/style/components/news.css');
+@import url('/style/components/comments.css');
+@import url('/style/components/statistics.css');
+@import url('/style/components/data.css');
+@import url('/style/components/footer.css');
+@import url('/style/components/footer_dop.css');
